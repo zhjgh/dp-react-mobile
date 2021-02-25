@@ -1,11 +1,11 @@
 {
-  "vendors.css": "/static/css/vendors.938a08574b742d6545b7.css",
-  "vendors.js": "/static/js/vendors.10177207.js",
-  "app.js": "/static/js/app.938a08574b742d6545b7.js",
-  "src-components-ellipsis-index.css": "/static/css/src-components-ellipsis-index.938a08574b742d6545b7.css",
-  "src-components-ellipsis-index.js": "/static/js/src-components-ellipsis-index.d4b7e124.js",
-  "src-components-home-index.js": "/static/js/src-components-home-index.ee63f516.js",
-  "src-components-slider-index.css": "/static/css/src-components-slider-index.938a08574b742d6545b7.css",
-  "src-components-slider-index.js": "/static/js/src-components-slider-index.91b29aba.js",
-  "index.html": "/index.html"
+  "vendors.css": "/dp-react-mobile/static/css/vendors.fbcf62023268cb36d04a.css",
+  "vendors.js": "/dp-react-mobile/static/js/vendors.3a5ec532.js",
+  "app.js": "/dp-react-mobile/static/js/app.fbcf62023268cb36d04a.js",
+  "src-components-ellipsis-index.css": "/dp-react-mobile/static/css/src-components-ellipsis-index.fbcf62023268cb36d04a.css",
+  "src-components-ellipsis-index.js": "/dp-react-mobile/static/js/src-components-ellipsis-index.d4b7e124.js",
+  "src-components-home-index.js": "/dp-react-mobile/static/js/src-components-home-index.ee63f516.js",
+  "src-components-slider-index.css": "/dp-react-mobile/static/css/src-components-slider-index.fbcf62023268cb36d04a.css",
+  "src-components-slider-index.js": "/dp-react-mobile/static/js/src-components-slider-index.91b29aba.js",
+  "index.html": "/dp-react-mobile/index.html"
 }
