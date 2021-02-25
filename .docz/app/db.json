@@ -1,0 +1,173 @@
+{
+  "config": {
+    "title": "移动端组件库",
+    "description": "react移动端组件",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": false,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {
+      "mode": "light"
+    },
+    "separator": "-",
+    "typescript": true,
+    "theme": "D:/dp-npm/dp-react-mobile/node_modules/docz-theme-umi/es/index.js",
+    "base": "/",
+    "plugins": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "props": [],
+  "entries": [
+    {
+      "key": "src/components/Ellipsis/index.mdx",
+      "value": {
+        "name": "Ellipsis",
+        "route": "/Ellipsis",
+        "order": 2,
+        "sidebar": true,
+        "id": "11ba17768725298e68198cd28c5c5209",
+        "filepath": "src/components/Ellipsis/index.mdx",
+        "link": "https://github.com/zhjgh/dp-react-mobile\\edit\\master\\src/components/Ellipsis/index.mdx",
+        "slug": "src-components-ellipsis-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "省略组件",
+            "depth": 1,
+            "value": "省略组件"
+          },
+          {
+            "slug": "默认",
+            "depth": 4,
+            "value": "默认"
+          },
+          {
+            "slug": "多行中文",
+            "depth": 4,
+            "value": "多行中文"
+          },
+          {
+            "slug": "多行英文",
+            "depth": 4,
+            "value": "多行英文"
+          },
+          {
+            "slug": "用法",
+            "depth": 2,
+            "value": "用法"
+          },
+          {
+            "slug": "api文档",
+            "depth": 2,
+            "value": "API文档"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Home/index.mdx",
+      "value": {
+        "name": "介绍",
+        "route": "/",
+        "order": 0,
+        "sidebar": true,
+        "id": "2117acc826851f94875459a69e7dac9c",
+        "filepath": "src/components/Home/index.mdx",
+        "link": "https://github.com/zhjgh/dp-react-mobile\\edit\\master\\src/components/Home/index.mdx",
+        "slug": "src-components-home-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "dp-react-mobile基于react移动端ui组件库",
+            "depth": 1,
+            "value": "dp-react-mobile——基于react移动端UI组件库"
+          },
+          {
+            "slug": "技术实现与版本",
+            "depth": 1,
+            "value": "技术实现与版本"
+          },
+          {
+            "slug": "使用",
+            "depth": 2,
+            "value": "使用"
+          },
+          {
+            "slug": "安装",
+            "depth": 2,
+            "value": "安装"
+          },
+          {
+            "slug": "使用-1",
+            "depth": 2,
+            "value": "使用"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Slider/index.mdx",
+      "value": {
+        "name": "Slider",
+        "route": "/Slider",
+        "order": 1,
+        "sidebar": true,
+        "id": "7854aae1f2cfc18654be0666a26ba452",
+        "filepath": "src/components/Slider/index.mdx",
+        "link": "https://github.com/zhjgh/dp-react-mobile\\edit\\master\\src/components/Slider/index.mdx",
+        "slug": "src-components-slider-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "slider轮播图组件",
+            "depth": 1,
+            "value": "Slider轮播图组件"
+          },
+          {
+            "slug": "默认",
+            "depth": 4,
+            "value": "默认"
+          },
+          {
+            "slug": "自定义参数名称",
+            "depth": 4,
+            "value": "自定义参数名称"
+          },
+          {
+            "slug": "右下角显示分页数量",
+            "depth": 4,
+            "value": "右下角显示分页数量"
+          },
+          {
+            "slug": "图片圆角设置",
+            "depth": 4,
+            "value": "图片圆角设置"
+          },
+          {
+            "slug": "点击获取数据",
+            "depth": 4,
+            "value": "点击获取数据"
+          },
+          {
+            "slug": "用法",
+            "depth": 2,
+            "value": "用法"
+          },
+          {
+            "slug": "api文档",
+            "depth": 2,
+            "value": "API文档"
+          }
+        ]
+      }
+    }
+  ]
+}

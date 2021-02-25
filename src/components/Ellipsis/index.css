@@ -1,0 +1,13 @@
+.single-ellipsis{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+
+.multiple-ellipsis{
+  display: -webkit-box;
+  overflow: hidden;
+  line-height: 24px;
+  -webkit-box-orient: vertical;
+  overflow-wrap: break-word;
+}

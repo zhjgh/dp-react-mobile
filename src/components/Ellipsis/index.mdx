@@ -1,0 +1,41 @@
+---
+name: Ellipsis
+route: /Ellipsis
+order: 2
+sidebar: true
+---
+
+import { Playground } from 'docz'
+import Ellipsis from './index'
+
+# 省略组件
+
+#### 默认
+<Playground>
+  <Ellipsis>单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文单行中文</Ellipsis>
+</Playground>
+
+#### 多行中文
+<Playground>
+  <Ellipsis type="multiple" rows={2}>中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行中文两行</Ellipsis>
+</Playground>
+
+#### 多行英文
+<Playground>
+  <Ellipsis type="multiple" rows={2}>multiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiplemultiple</Ellipsis>
+</Playground>
+
+## 用法
+
+```
+import { Ellipsis } from 'dp-react-mobile'
+
+// 导入
+<Ellipsis>测试内容</Ellipsis>
+```
+
+## API文档
+| 参数   | 类型     | 说明                    | 默认值    |
+|------|--------|-----------------------|--------|
+| type | string | single 单行 multiple 多行 | single |
+| rows | number | 多行数量                  | 3      |
