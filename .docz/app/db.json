@@ -13,7 +13,7 @@
     "separator": "-",
     "typescript": true,
     "theme": "D:/dp-npm/dp-react-mobile/node_modules/docz-theme-umi/es/index.js",
-    "base": "/",
+    "base": "/dp-react-mobile",
     "plugins": [
       {},
       {},
@@ -30,7 +30,7 @@
       "key": "src/components/Ellipsis/index.mdx",
       "value": {
         "name": "Ellipsis",
-        "route": "/Ellipsis",
+        "route": "/dp-react-mobile/Ellipsis",
         "order": 2,
         "sidebar": true,
         "id": "11ba17768725298e68198cd28c5c5209",
@@ -76,7 +76,7 @@
       "key": "src/components/Home/index.mdx",
       "value": {
         "name": "介绍",
-        "route": "/",
+        "route": "/dp-react-mobile/",
         "order": 0,
         "sidebar": true,
         "id": "2117acc826851f94875459a69e7dac9c",
@@ -117,7 +117,7 @@
       "key": "src/components/Slider/index.mdx",
       "value": {
         "name": "Slider",
-        "route": "/Slider",
+        "route": "/dp-react-mobile/Slider",
         "order": 1,
         "sidebar": true,
         "id": "7854aae1f2cfc18654be0666a26ba452",

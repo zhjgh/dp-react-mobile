@@ -1,21 +1,12 @@
 {
   "name": "dp-react-mobile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react移动端组件",
   "keywords": [
-    "component",
-    "components",
-    "design",
-    "framework",
-    "frontend",
-    "react",
-    "react-component",
-    "ui",
     "Slider",
-    "Ellipsis",
-    "zhanghj"
+    "Ellipsis"
   ],
-  "homepage": "https://github.com/zhjgh/dp-react-mobile",
+  "homepage": "https://github.com/zhjgh/dp-react-mobile/",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhjgh/dp-react-mobile/issues"
@@ -24,15 +15,9 @@
     "type": "git",
     "url": "git+https://github.com/zhjgh/dp-react-mobile.git"
   },
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
+  "contributors": [
+    "zhanghj"
   ],
-  "engines": {
-    "node": ">=10"
-  },
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
@@ -49,29 +34,6 @@
   "peerDependencies": {
     "react": ">=16"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
-  "author": "zhanghj",
-  "module": "dist/dp-react-mobile.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/dp-react-mobile.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/dp-react-mobile.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "dependencies": {
     "@babel/runtime": "7.7.1",
     "@types/swiper": "^5.4.1",
@@ -93,9 +55,30 @@
     "tslib": "^2.1.0",
     "typescript": "^4.1.3"
   },
+  "files": [
+    "dist",
+    "lib",
+    "es"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "browserslist": [
     "last 2 versions",
     "Android >= 4.4",
     "iOS >= 9"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "author": "zhanghj",
+  "size-limit": [
+    {
+      "path": "dist/dp-react-mobile.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/dp-react-mobile.esm.js",
+      "limit": "10 KB"
+    }
   ]
 }

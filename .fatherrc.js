@@ -1,9 +1,9 @@
 const options = {
-  entry: 'src/index.js',
+  entry: './src/index.ts',
   doc: {
     title: '移动端组件库',
     themeConfig: { mode: 'light' },
-    base: '/'
+    base: '/dp-react-mobile'
   },
   // extraBabelPlugins: [
   //   ['babel-plugin-import', {
